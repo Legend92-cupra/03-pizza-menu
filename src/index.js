@@ -93,29 +93,6 @@ function Menu() {
       ) : (
         <p>We're still working on our menu. Please come back later.</p>
       )}
-
-      {/* Conditional Operator */}
-      {/* {numPizzas > 0 && (
-        <ul className="pizzas">
-          {pizzas.map((pizza) => (
-            <Pizza pizzaObj={pizza} key={pizza.name} />
-          ))}
-        </ul>
-      )} */}
-
-      {/* <Pizza
-        name="Pizza Spinacie"
-        ingredients="Tomato, mozarella, spinach, and ricotta cheese"
-        photoName="pizzas/spinaci.jpg"
-        price={10}
-      />
-
-      <Pizza
-        name="Pizza Funghi"
-        price={12}
-        ingredients="Tomato, mozarella, mushrooms, and onion"
-        photoName="pizzas/funghi.jpg"
-      /> */}
     </main>
   );
 }
